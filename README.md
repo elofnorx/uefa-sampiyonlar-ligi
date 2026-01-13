@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# UEFA Şampiyonlar Ligi Puan Durumu - React Final Ödevi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Hacettepe Üniversitesi Eğitim Fakültesi BÖTE Bölümü** **Ders:** WEB Programcılığı – React API Final Ödevi  
+**Dersi Veren:** Dr. Esra KIDIMAN DEMİRHAN  
+**Hazırlayan:** ELİFNUR BAĞCI
+---
 
-## Available Scripts
+## 📝 Konu ve Amaç
+**Konu:** React ile API kullanarak dinamik bir web sayfası geliştirme.  
+**Amaç:** Bu proje; React bileşen yapısını (Component), `fetch` metodunu, `useState` ve `useEffect` hook'larını kullanarak canlı veriyi çekmeyi ve kullanıcıya anlamlı bir şekilde sunmayı amaçlar.
 
-In the project directory, you can run:
+Projede **Football-Data.org** API servisi kullanılarak 2025-2026 sezonu UEFA Şampiyonlar Ligi puan durumu ve takım istatistikleri listelenmektedir.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🔗 Kullanılan API
+Projede veriler aşağıdaki açık kaynak API'den sağlanmaktadır:
+* **API Adı:** Football-Data.org
+* **API Linki:** [https://www.football-data.org/](https://www.football-data.org/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Projenin Çalıştırılması
+Bu projeyi bilgisayarınızda çalıştırmak için terminalde sırasıyla şu komutları uygulayın:
 
-### `npm test`
+1.  **Projeyi indirin:**
+    ```bash
+    git clone [https://github.com/elofnorx/uefa-sampiyonlar-ligi.git](https://github.com/elofnorx/uefa-sampiyonlar-ligi.git)
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2.  **Proje klasörüne girin:**
+    ```bash
+    cd uefa-sampiyonlar-ligi
+    ```
 
-### `npm run build`
+3.  **Gerekli kütüphaneleri yükleyin:**
+    ```bash
+    npm install
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4.  **Uygulamayı başlatın:**
+    ```bash
+    npm start
+    ```
+    Tarayıcınızda `http://localhost:3000` adresinde proje açılacaktır.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📸 Ekran Görüntüsü
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Proje Ekran Görüntüsü](public/ekran-goruntusu.png)
